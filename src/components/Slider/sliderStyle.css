@@ -1,0 +1,21 @@
+.slick-prev{
+  left: 10px!important;
+  z-index: 1;
+}
+
+.slick-next{
+  right: 10px!important;
+  z-index: 1;
+}
+
+.slick-dots{
+  bottom: -15px!important;
+}
+
+.slick-dots li.slick-active button:before{
+  color: white!important;
+}
+
+.slick-dots li button:before{
+  color: white!important;
+}

@@ -22,3 +22,8 @@ code {
   text-align: center;
   height: 100vh;
 }
+
+.container{
+  width: unset!important;
+  max-width: 1170px!important;
+}

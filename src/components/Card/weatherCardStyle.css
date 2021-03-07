@@ -1,0 +1,21 @@
+.w-card{
+  margin-right: 10px;
+  padding: 7.5px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.w-card_body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_title{
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 600;
+  white-space: nowrap;
+}

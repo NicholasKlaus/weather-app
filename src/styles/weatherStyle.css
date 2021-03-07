@@ -1,0 +1,94 @@
+.weather {
+  height: 100vh;
+} 
+
+.w-body{
+background: rgba(0, 0, 0, 0.47);
+}
+
+.w-body__top {
+padding-top: 10px;
+padding-bottom: 30px;
+}
+
+.w-body__bottom {
+padding: 10px 0 20px 0;
+background: rgba(0, 0, 0, 0.37);
+}
+
+.w-left_content {
+list-style: none;
+color: #fff;
+}
+
+.w-data_temperature{
+font-size: 32px;
+line-height: 35px;
+}
+
+.w-data_temp-feels{
+font-size: 28px;
+line-height: 35px;
+}
+
+.w-data_date {
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+}
+
+.w-data {
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+}
+
+.w-data_city-name{
+color: white;
+}
+
+.city-name__wrap{
+text-align: right;
+padding-right: 40px;
+}
+
+@media (max-width: 576px){
+.w-data {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.w-data_date {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.w-data_temperature{
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.w-data_temp-feels{
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.city-name_wrap{
+  text-align: left;
+  padding-left: 40px;
+}
+
+.w-data_city-name{
+  font-size: 30px;
+  line-height: 25px;
+}
+}
+
+.spinner-wrap{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
