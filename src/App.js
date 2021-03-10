@@ -13,7 +13,7 @@ function App() {
           <Switch>
             <Route path={ROUTES.LANDING} component={LandingPage} />
             <Route path={ROUTES.WEATHER} component={WeatherPage} />
-            <Redirect from="/" to={ROUTES.WEATHER} />
+            <Redirect from="/" to={ROUTES.LANDING} />
           </Switch>
         </Router>
     </div>

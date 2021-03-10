@@ -3,6 +3,12 @@
 @import "~slick-carousel/slick/slick-theme.css";
 @import "./styles/index.css";
 
+@font-face {
+  font-family: 'IcoFont';
+  src: url('fonts/icofont/icofont.css');
+  font-weight: normal;
+  font-style: "Regular";
+}
 
 body {
   margin: 0;
