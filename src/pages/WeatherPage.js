@@ -16,7 +16,7 @@ export const WeatherPage = () => {
   
   useEffect(() => {
     dispatch(getWeather(query.lat, query.lon));
-  }, [])
+  }, [dispatch, query.lat, query.lon])
 
   useEffect(() => {
     if (!weatherData.errMessage && weatherData.weather.length) {
