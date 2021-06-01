@@ -1,7 +1,7 @@
 import React from "react";
 import "./errorMessageStyle.css";
-import {Link} from 'react-router-dom';
-import {ROUTES} from "../../constants/routes";
+import { Link } from 'react-router-dom';
+import { ROUTES } from "../../constants/routes";
 import { Alert } from "react-bootstrap";
 
 export const ErrorMessage = () => (

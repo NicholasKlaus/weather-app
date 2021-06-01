@@ -4,7 +4,7 @@ import { Row, Col, Spinner } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import { getWeather } from '../redux/actions';
 import { formatDate, formatWeekDay } from '../helpers/timeHelper';
-import {useQuery} from '../helpers/QueryString';
+import { useQuery } from '../helpers/QueryString';
 
 
 export const WeatherPage = () => {
@@ -13,7 +13,6 @@ export const WeatherPage = () => {
   const [weekDay, setWeekDay] = useState(null);
   const [weekDayDate, setWeekDayDate] = useState(null);
   const query = useQuery();
-  console.log(weatherData);
   
   useEffect(() => {
     dispatch(getWeather(query.lat, query.lon));
@@ -26,7 +25,7 @@ export const WeatherPage = () => {
     }
   }, [weatherData, weekDay, weekDayDate ])
 
-  return(
+  return (
     <div className="weather">
       <Layout>
         <div className="container">

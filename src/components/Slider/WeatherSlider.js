@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "./sliderStyle.css";
 import { sliderConfig } from "../../constants/sliderConfig";
 
-export const WeatherSlider = ({ children, config}) => {
+export const WeatherSlider = ({children, config}) => {
   const settings = {
     ...sliderConfig,
     ...config

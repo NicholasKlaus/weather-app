@@ -1,6 +1,6 @@
-import React, {useState} from "react";
-import {Link} from 'react-router-dom';
-import {ROUTES} from "../constants/routes";
+import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+import { ROUTES } from "../constants/routes";
 import cities from "../assets/json/city.list.min.json";
 
 
@@ -16,7 +16,7 @@ export const LandingPage = () => {
     }
   };   
   
-  return(
+  return (
     <div className="landing">
       <div className="container">
         <header className="header">
