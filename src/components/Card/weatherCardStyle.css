@@ -1,4 +1,4 @@
-.w-card{
+.w-card {
   margin-right: 10px;
   padding: 7.5px;
   text-align: center;
@@ -6,14 +6,14 @@
   color: #fff;
 }
 
-.w-card_body{
+.w-card_body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.card_title{
+.card_title {
   font-size: 18px;
   line-height: 25px;
   font-weight: 600;
